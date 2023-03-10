@@ -1,0 +1,163 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+.body
+{
+    background-color: rgb(78, 170, 236);
+}
+
+
+.section-1
+{
+    background-image:url("../images/labimage.jpg");
+    padding:10px 10px 1000px 1000px ;
+    margin: 0%;
+
+
+
+    
+}
+.title
+{
+    border-style:outset;
+    border-radius: 80px;
+    min-width: 300px;
+    background-color:rgba(67, 29, 29, 0.59);
+    color: rgba(237, 227, 227, 0.969);
+    position: absolute;
+    top: 100px;
+    left: 350px;
+    right: 50px;
+    padding: 0%;
+    
+}
+.title-word
+{
+    font-size: 100px ;
+    text-align: center;
+    color: #f3f1f1;
+    margin: auto;
+    text-shadow:0 2px  0 rgba(2, 61, 34, 0.969),
+    2px 4px  0 rgba(2, 61, 34, 0.969) ;
+    
+    
+}
+.captions
+{
+    text-align: center;
+    text-shadow: 1px 2px 0 rgba(57, 56, 81, 0.889);
+    margin-bottom: 2%;
+}
+.contact
+{
+    border: solid;
+    border-radius: 60px;
+    padding:.5% 5% .5% 5%;
+    border-color: rgba(69, 155, 208, 0.582);
+    font-size: 20px;
+    font-weight: bold;
+    color: rgb(39, 51, 48);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background: rgba(138, 105, 96, 0.05);
+    height: auto;
+    width: auto;
+    position: fixed;
+    left: 30px;
+    top:15px;
+    cursor: pointer;
+
+}
+.contact:hover
+{
+    background-color: rgba(131, 121, 121, 0.524);
+    color: rgb(254, 254, 254);
+    border-width: 2%;
+    border-color: rgb(140, 169, 169);
+    zoom: 110%;
+    -ms-zoom-animation: initial;
+
+}
+.social-media
+{
+    padding: 7px;
+    border-style: solid;
+    border-width: 3px;
+    border-radius: 20px;
+    background-color: rgb(248, 248, 248);
+    margin-bottom: 15px;
+    position: fixed;
+    left: 5px auto ;
+    right: 35px;
+    max-width: 200px;
+    min-width: 40px;
+    z-index: 2000;
+}
+.social-media:hover
+{
+    border: rgb(97, 125, 211);
+    border-style: solid;
+    border-width: 3px;
+}
+#fb 
+{
+    width: 40px;
+    
+}
+#fb:hover
+{
+    border: rgb(97, 125, 211);
+    border-style: solid;
+    border-width: 3px;
+}
+#twitter
+{
+    width: 37px;
+}
+#twitter:hover
+{
+    border: rgb(97, 125, 211);
+    border-style: solid;
+    border-width: 3px;
+}
+#instagram
+{
+    width: 40px;
+}
+#instagram:hover
+{
+    border: rgb(97, 125, 211);
+    border-style: solid;
+    border-width: 3px;
+}
+#linkedin
+{
+    width: 40px;
+}
+#linkedin:hover
+{
+    border: rgb(97, 125, 211);
+    border-style: solid;
+    border-width: 3px;
+}
+.left-box
+{
+    background-color: rgba(188, 205, 213, 0.393);
+    border-radius: 5px ;
+    border-style: solid;
+    border-width: 4px;
+    border-color: rgba(18, 22, 21, 0.383);
+    padding: 2%;
+    width: 200px;
+    padding-bottom: 220px;
+    position: absolute;
+    left: 0px;
+    top: 75px
+
+}
+.material-symbols-outlined{
+    color: white;
+}
+.material-symbols-outlined:hover{
+color: blue;
+}
