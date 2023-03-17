@@ -1,0 +1,54 @@
+.wrapper {
+  width: 100%;
+  max-width: 80%;
+  height: auto;
+  margin: 0 auto;
+  background: red;
+}
+.wrapper.independant {
+  width: calc(100% + 40px);
+  max-width: calc(80% + 40px);
+}
+.wrapper .container {
+  width: 100%;
+}
+.wrapper .container .row {
+  margin: 0 -10px;
+  outline: 1px solid;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper .container .row .col {
+  margin: 10px;
+  flex-grow: 1;
+  flex-shrink: 0;
+}
+
+.box {
+  height: 400px;
+  min-width: 200px;
+}
+.box.one {
+  background: green;
+}
+.box.two {
+  background: blue;
+}
+.box.three {
+  background: pink;
+}
+.box.four {
+  background: yellow;
+}
+
+.independant-box {
+  width: 100%;
+  height: 400px;
+  background: black;
+}
+.independant-box.again {
+  margin: 40px 0;
+}
+.independant-box.red {
+  background: red;
+}/*# sourceMappingURL=alignment.css.map */
