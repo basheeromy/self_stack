@@ -427,6 +427,7 @@ footer
 {
     padding-bottom:10px;
     font-family: Arial;
+    list-style: none;
 }
 .footer-nav-list-layout
 {
@@ -434,8 +435,8 @@ footer
 }
 .footer-list-title
 {
-    margin-left:29px;
-    margin-top:30px;
+    margin-left:40px;
+    margin-top:40px;
     font-weight: bolder;
 }
 .footer-bottom
