@@ -1,0 +1,59 @@
+$align-width: 100%;
+$ind-extra: 40px;
+
+.wrapper {
+    width: $align-width;
+    max-width: 80%;
+    height: auto;
+    margin: 0 auto;
+    background: red;
+
+    &.independant {
+        width: calc($align-width + $ind-extra);
+        max-width: calc(80% + $ind-extra);
+    }
+
+    .container {
+        width: 100%;
+        .row {
+            margin: 0 -10px;
+            outline: 1px solid;
+            display: flex;
+            flex-wrap: wrap;
+            .col {
+                margin: 10px;
+                flex-grow: 1;
+                flex-shrink: 0;
+            }
+        }
+    }
+}
+
+.box {
+    height: 400px;
+    min-width: 200px;
+    &.one{
+        background: green;
+    }
+    &.two{
+        background: blue;
+    }
+    &.three{
+        background: pink;
+    }
+    &.four{
+        background: yellow;
+    }
+}
+
+.independant-box {
+    width: 100%;
+    height: 400px;
+    background: black;
+    &.again {
+        margin: 40px 0;
+    }
+    &.red {
+        background: red;
+    }
+}

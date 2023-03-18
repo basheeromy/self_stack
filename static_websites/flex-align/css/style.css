@@ -1,0 +1,33 @@
+.wrapper {
+  width: 100%;
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+}
+.wrapper .container {
+  max-width: 840px;
+  width: 100%;
+  height: auto;
+  margin: 0 -10px;
+  background: pink;
+  display: flex;
+  flex-wrap: wrap;
+}
+.wrapper .box {
+  height: 400px;
+  min-width: 400px;
+  margin: 10px;
+  flex-grow: 1;
+}
+.wrapper .box.one {
+  background: blue;
+}
+.wrapper .box.two {
+  background: red;
+}
+.wrapper .box.three {
+  background: green;
+}
+.wrapper .box.four {
+  background: violet;
+}/*# sourceMappingURL=style.css.map */
