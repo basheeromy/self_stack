@@ -1,0 +1,118 @@
+*
+{
+    background-color: black;
+}
+header
+{
+    text-align: center;
+}
+header h1
+{
+    color:rgb(216, 211, 211);
+    font-size: 100px;
+    letter-spacing: 5px;
+    font-family: 'Cormorant Garamond', serif;
+}
+header h3
+{
+    color:white;
+    margin-top: -60px;
+    margin-bottom: 50px;
+    letter-spacing: 4px;
+}
+header hr
+{
+    width:80%;
+}
+header ul
+{
+    display:flex;
+    list-style: none;
+    margin-left: 300px;
+}
+header ul li a
+{
+    color:white;
+    text-decoration: none;
+    margin: 15px 55px 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    letter-spacing: 3px;
+}
+
+.candy h1
+{
+    color:white;
+    font-size: 70px;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 100px;
+}
+.poster-1
+{
+    margin:100px 0 50px 0 ;
+    color: white;
+    text-align: center;
+}
+.poster-1 img
+{
+    margin-right: 20px;
+}
+.content-1
+{
+    color:rgb(191, 183, 183);
+    font-size:20px;
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    letter-spacing:1px;
+    margin-left: 200px;
+}
+.content-1 p
+{
+    margin-top: 50px;
+}
+.content-1 p a
+{
+    text-decoration: none;
+    color:white;
+}
+.content-1 p a:hover
+{
+    color:red;
+    text-decoration: underline;
+}
+.product-scroll-box
+{
+    display: flex;
+    width:500px;
+    height: 300px;
+    overflow-y: hidden;
+    overflow-x: auto;
+    margin-left: 550px;
+
+}
+.product-scroll-box img
+{
+    width:200px;
+    height:200px;
+}
+.content-1
+{
+    color:rgb(191, 183, 183);
+    font-size: 20px;
+    line-height: 40px;
+}
+footer
+{
+    color:rgb(191, 183, 183);
+    text-align: center;
+    margin: 300px 0 30px 0;
+    font-family:'M PLUS Rounded 1c', sans-serif;
+}
+footer a
+{
+    text-decoration: none;
+    color:white;
+}
+footer a:hover 
+{
+    color:rgb(202, 27, 27);
+}
